@@ -5,9 +5,11 @@ A small React app with a few realistic bugs in `src/TaskBoard.jsx`.
 its functions correctly.
 
 ## Setup
-Simply run to install all required packages and get up to speed, it'll clone the repo and install all required dependencies
-
-
+1. clone the repo
+```console
+git clone https://github.com/maroo4/onboard.git
+```
+2 Run code
 ```console
 npm run onboard
 ```
